@@ -314,12 +314,9 @@ main section {
 
 .artistis-grid,
 .albums-grid {
-    flex: 0 0 auto;
     justify-content: flex-start;
     padding: 20px 0;
     margin-top: 20px;
-    min-width: 0;
-    flex-shrink: 0;
     gap: 30px;
     transition: 0.3s ease-in-out;
 }
@@ -330,19 +327,13 @@ main section {
 
 .artistis-photos,
 .albums-photos {
-
     transition: 0.3s ease-in-out;
-
-
-    width: 160px;
-    flex-shrink: 0;
 }
 
 .artistis_card,
 .albums-card {
     display: flex;
     flex-direction: column;
-    min-width: 160px;
     max-width: 160px;
     flex: 0 0 auto;
 }
